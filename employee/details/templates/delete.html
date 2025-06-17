@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="POST" action="">
+    {% csrf_token %}
+        
+    <h3>should i delete the info the employee {{employee.name}}</h3>
+    <a href="{% url 'list' %}">cancel</a>
+    <button type="submit" class="btn btn-primary">delete</button><br/>
+
+</form>
+
+{% endblock %}
