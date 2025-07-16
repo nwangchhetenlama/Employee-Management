@@ -1,3 +1,9 @@
-# Employee-Management
+# Employee-Management system
 
-using django CRUD operation to build a simple employee management website.
+# Features
+
+- Add a new employee using Django forms
+- View a list of all employees
+- Update existing employee information
+- Delete employee records with confirmation
+- Organized views and templates
